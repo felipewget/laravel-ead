@@ -1,0 +1,241 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: arial;
+	font-size: 14px;
+	text-decoration: none;
+	outline: none;
+}
+
+body {
+	background: #f2f3f5;
+}
+
+div[space-header] {
+	width: 100%;
+	height: 60px;
+}
+
+nav[navbar] {
+	height: 60px;
+	width: 100%;
+	background: #510fa8;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+}
+
+nav[navbar] div[logo-header] {
+	height: 40px;
+	width: 150px;
+	background: #DDD;
+	margin: 10px;
+	float: left;
+}
+
+nav[navbar] form {
+	float: left;
+}
+
+nav[navbar] form input {
+	margin: 10px;
+	height: 40px;
+	width: 500px;
+	border-radius-left-top: 2px;
+	border-radius-left-bottom: 2px;
+	background: #f2f3f5;
+	border: none;
+	margin-right: 0px;
+	float: left;
+	font-size: 13px;
+	color: #666;
+	padding: 0px 10px;
+}
+
+nav[navbar] form button {
+	border-radius-right-top: 2px;
+	border-radius-right-bottom: 2px;
+	float: left;
+	margin: 10px 0px;
+	height: 40px;
+	border: none;
+	width: 40px;
+	margin-right: 10px;
+	background: #f2f3f5;
+	cursor: pointer;
+}
+
+nav[navbar] button[my-courses] {
+	color: #505763;	
+	padding: 12px 15px;
+	border: none;
+	background: transparent;
+	line-height: 35px;
+	float: right;
+	cursor: pointer;
+	margin-right: 15px;
+	font-size: 13px;
+}
+
+nav[navbar] ul[list-notify] {
+	float: right;
+	list-style: none;
+}
+
+nav[navbar] ul[list-notify] li {
+	float: right;
+	width: 30px;
+	height: 60px;
+	line-height: 60px;
+	font-size: 17px;
+	cursor: pointer;
+	margin: 0px 10px; 
+	color: #7d879b;
+}
+
+nav[navbar] div[user] {
+	width: 40px;
+	height: 40px;
+	float: right;
+	margin: 10px;
+	background: #373d48;
+	cursor: pointer;
+	border-radius: 2px;
+	text-align: center;
+	line-height: 40px;
+	color: #FFF;
+}
+
+div[center] {
+	width: 1100px;
+	margin: 0 auto;
+	min-height: 0px;
+	overflow: hidden;
+}
+
+div[apresentation-my-courses] {
+	width: 100%;
+	height: 153px;
+	background: #373d48;
+	overflow: hidden;
+}
+
+div[apresentation-my-courses] div[title] {
+	font-size: 33px;
+	color: #FFF;
+	height: 50px;
+	margin-top: 50px;
+}
+
+div[apresentation-my-courses] ul[menu-my-courses] {
+	list-style: none;
+}
+
+div[apresentation-my-courses] ul[menu-my-courses] li {
+	color: #FFF;
+	font-size: 16px;
+	float: left;
+	margin-right: 30px;
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+	cursor: pointer;
+}
+
+div[apresentation-my-courses] ul[menu-my-courses] li[active] {
+	border-bottom: solid 3px #DDD;
+}
+
+div[content-list-courses] {
+	width: 100%;
+	min-height: 300px;
+	background: #EFEFEF;
+}
+
+div[card-course] {
+	width: 230px;
+	height: 290px;
+	border: solid 1px #DDD;
+	float: left;
+	background: #FFF;
+	margin: 20px 10px;
+}
+
+div[card-course]:HOVER {
+	box-shadow: 0px 0px 5px #DDD;
+	cursor: pointer;
+}
+
+div[card-course] div[image] {
+	width: 100%;
+	height: 150px;
+	background: #DDD;
+}
+
+div[card-course] div[teacher] {
+	width: 100%;
+	margin-top: -25px;
+}
+
+div[card-course] div[teacher] div[avatar] {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background: #FFF;
+	margin: 0 auto;
+	border: solid 1px #DDD;
+}
+
+div[card-course] div[teacher] div[name] {
+	text-align: center;
+	font-size: 13px;
+	color: #888;
+	line-height: 30px;
+}
+
+div[card-course] div[data-course] div[name] {
+	font-size: 15px;
+	color: #333;
+	padding: 0px 15px;
+	font-weight: bold;
+}
+
+div[card-course] div[data-course] div[progress] {
+	width: 200px;
+	margin: 15px;
+	border-bottom: solid 1px #DDD;
+}
+
+div[card-course] div[data-course] div[progress] div[percentage] {
+	width: 45%;
+	border-bottom: solid 1px #373d48;
+	margin-bottom: -1px;
+}
+
+div[card-course] div[data-course] div[text-progress]{
+	margin: 15px;
+	margin-top: -10px;
+	font-size: 12px;
+	color: #555;
+}
+
+ul[scrumthumb] {
+	padding: 5px 15px;
+	border-bottom: solid 1px #DDD;
+	display: block;
+	overflow: hidden;
+	list-style: none;
+}
+
+ul[scrumthumb] li {
+	float: left;
+	padding-left: 10px;
+
+}
+
+ul[scrumthumb] li a {
+	color: #555;
+	cursor: pointer;
+	font-size: 11px;
+	font-weight: bold;
+}

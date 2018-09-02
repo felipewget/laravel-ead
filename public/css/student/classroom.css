@@ -1,0 +1,154 @@
+body {
+	background: #555;
+
+	overflow: hidden;
+}
+
+ul[scrumthumb] {
+	border-bottom: solid 1px #444;
+}
+
+ul[scrumthumb] li a {
+	color: #CCC;
+}
+
+div[container-vertical-menu] {
+	width: 300px;
+	height: 100%;
+	border-right: solid 1px #444;
+	left: 0px;
+	top: 60px;
+	position: fixed;
+	background: #444;
+	box-shadow:inset 0px 0px 3px #333;
+}
+
+div[container-vertical-menu] div[title] {
+	color: #AAA;
+	font-size: 16px;
+	padding: 10px;
+}
+
+div[container-vertical-menu] div[module] {
+	background: #EEE;
+	border: solid 1px #DDD;
+	margin: 10px;
+	overflow: hidden;
+}
+
+div[container-vertical-menu] div[module] div[title-module] {
+	border-bottom: solid 1px #DDD;
+	overflow: hidden;
+	padding: 5px;
+	margin: 5px;
+	margin-bottom: 0px;
+}
+
+div[container-vertical-menu] div[module] div[title-module] p {
+	float: left;
+	color: #333;
+	font-size: 12px;
+}
+
+div[container-vertical-menu] div[module] div[title-module] span {
+	float: right;
+	color: #333;
+	font-size: 12px;
+}
+
+div[container-vertical-menu] div[module] div[title-module] div[text-title-module] {
+	font-size: 16px;
+	width: 100%;
+	float: left;
+	font-weight: bold;
+	color: #333;
+	margin-top: 5px;
+}
+
+div[class-module] {
+	border-bottom: solid 1px #DDD;
+	padding: 10px;
+	font-size: #555;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+div[class-module]:HOVER {
+	background: #DDD;
+}
+
+div[class-module] div[class-module-title] {
+	float: left;
+	width: 230px;
+	line-height: 25px;
+}
+
+div[class-module] div[check] {
+	float: right;
+	font-size: 14px;
+	color: #999;
+	margin: 4px;
+}
+
+div[class-module][active] {
+	border-left: solid 2px #373d48;
+}
+
+div[bottom-bar] {
+	position: fixed;
+	right: 0px;
+	bottom: 0px;
+	background: #444;
+	border-bottom: solid 1px #333;
+	height: 40px;
+	width: 1066px;
+}
+
+div[bottom-bar] button {
+	float: right;
+	background: #DDD;
+	color: #555;
+	background: transparent;
+	color: #CCC;
+	border: none;
+	line-height: 40px;
+	margin: 0px 10px;
+	cursor: pointer;
+}
+
+div[bottom-bar] button[comment] {
+	float: left;
+	font-size: 13px;
+}
+
+div[bottom-bar] button[next] {
+	background: #222;
+	padding: 0px 15px;
+	margin: 0px;
+	box-shadow: 0px 0px 3px #333;
+	font-size: 13px;
+}
+
+div[container-content] div[block-class] {
+	width: 700px;
+	min-height: 0px;
+	overflow: hidden;
+	background: #FFF;
+	border: solid 1px #DDD;
+	color: #555;
+	margin: 0 auto;
+	margin-top: 50px;
+	box-shadow: 0px 0px 4px #333;
+}
+
+div[container-content] div[block-class] div[title] {
+	font-size: 16px;
+    width: 100%;
+    float: left;
+    font-weight: bold;
+    color: #333;
+    margin-top: 5px;
+    padding: 10px;
+    margin: 10px;
+    border-bottom: solid 1px #DDD;
+}
